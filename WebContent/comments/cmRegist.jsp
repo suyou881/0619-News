@@ -3,7 +3,7 @@
 <%@page import="com.study.model.news.Comments"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%!
-	CommentsDAO commentsDAO = new CommentsDAO();
+	CommentsDAO commentsDAO = new  CommentsDAO();
 %>
 <%
 	request.setCharacterEncoding("utf-8");
